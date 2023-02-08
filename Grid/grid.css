@@ -1,0 +1,29 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+body{
+    background-color: black;
+    padding: 0 0 1000px
+}
+
+.parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.kid1, .kid3{
+    background-color: lightblue;
+    margin-top: 30px;
+    height: 500px;
+}
+
+.kid2, .kid4{
+    background-color: lightpink;
+    margin-top: 30px;
+    height: 500px;
+
+}

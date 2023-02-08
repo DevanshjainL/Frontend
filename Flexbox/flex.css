@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    flex-direction: row; 
+}
+
+
+.child1, .child2{
+    width: 400px;
+    height: 300px;
+
+}
+
+.child1{
+    background-color: lightblue; 
+}
+
+.child2{
+    background-color: lightpink; 
+}
